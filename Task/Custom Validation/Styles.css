@@ -1,0 +1,29 @@
+body {
+    height: 50%;
+    background-image: url("rax2.png");
+    background-size: cover;      
+    background-position: center;   
+    background-attachment: fixed;   
+  }
+  
+
+
+.btn-hover.color-5 {
+    background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
+}
+
+.btn-hover {
+    width: 150px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    color: #fff;
+    cursor: pointer;
+    height: 45px;
+    border:none;
+    text-align:center;
+    border: none;
+    align-items: center;
+    border-radius: 30px;
+}
