@@ -48,7 +48,7 @@ console.log(document.querySelector('.message').textContent)
 //math logic will generate the new number and the number message will generate the new number everytime betwwen 1 to 20
 const secretNumber =Math.trunc(Math.random()*20)+1;//its object that gives always new number ane its always new and diffrent
 let score = 20;
-
+document.querySelector('.number').textContent = secretNumber;
 
 /////////////////////////////////////////////Click Event Part with Logic/////////////////////////////////////////////
 
@@ -69,10 +69,13 @@ document.querySelector('.message').textContent = 'No Number'
 
 //if both number matches it will print correct number
 }else if (guess === secretNumber){
-    document.querySelector('.number').textContent = secretNumber;
-    document.querySelector('.message').textContent = 'Correct Number'
+    
+    document.querySelector('.message').textContent = secretNumber % 2 === 0 ? ' Correct Number(Even)' : ' Correct Number(Odd)'; 
+
     document.querySelector('body').style.backgroundColor = '#60b347';
     
+    document.querySelector('.check').disabled = true;
+    document.querySelector('.guess').disabled = true;
 //if guess number is high it will print high
 }
 else if (guess>secretNumber){

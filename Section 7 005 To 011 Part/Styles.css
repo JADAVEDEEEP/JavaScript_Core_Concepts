@@ -42,6 +42,7 @@ h1 {
   top: 52%;
   left: 50%;
   transform: translate(-50%, -50%);
+  
 }
 
 .number {
@@ -54,6 +55,7 @@ h1 {
   bottom: 0;
   left: 50%;
   transform: translate(-50%, 50%);
+ 
 }
 
 .between {
@@ -86,3 +88,9 @@ h1 {
   padding: 2rem 3rem;
   cursor: pointer;
 }
+/*this web kit are use for the scroll inuput numbers without showing counter arrows and do use for select the numbers it only work with the */
+input::-webkit-outer-spin-button, 
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
