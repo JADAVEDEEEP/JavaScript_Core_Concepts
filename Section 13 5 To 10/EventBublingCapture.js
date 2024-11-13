@@ -1,0 +1,4 @@
+/*event pass trough all html parent element and based to the 
+based till tatget and since from targer to root element travel
+called the bubbling which will pased trough the each of the parent elment again
+trough the target to rro elemets and capture will captre all the traveling phase */
