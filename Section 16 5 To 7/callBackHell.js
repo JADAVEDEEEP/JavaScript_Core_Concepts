@@ -1,0 +1,1 @@
+//call back is the sequnce of ajax calls where multiple data we can acess at the means time from one API
