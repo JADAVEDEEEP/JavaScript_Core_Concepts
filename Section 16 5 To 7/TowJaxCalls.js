@@ -5,7 +5,7 @@ const countriesContainer = document.querySelector('.countries');
 
 const getcountrydata = (country)=>{
 
-
+3
 const request = new XMLHttpRequest();
 request.open('GET', `https://restcountries.com/v2/name/${country}`);
 request.send();
